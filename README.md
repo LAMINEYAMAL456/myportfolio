@@ -1,0 +1,1 @@
+My name is Chierika. This is my portfolio website. I am currently 13 years old and I am aspiring to write codes in the future.
