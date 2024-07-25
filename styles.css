@@ -1,0 +1,214 @@
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin: 20px;
+}
+
+li {
+    margin: 20px;
+}
+
+a {
+    margin: 20px;
+}
+
+.logo {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    margin: 20px;
+    width: 50px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+#second_div {
+   width: 418px;
+   padding: 25px;
+   border-radius: 20px;
+   background-color: darkcyan;
+}
+#third_div{
+    width: 418px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: darkcyan;
+}
+
+#Hero_container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: ;
+}
+
+#profile {
+    width: 270px;
+    height: 259px;
+    border-radius: 50%;
+}
+
+#Description {
+    width: 497px;
+}
+
+
+#first_div {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    height: 350px;
+}
+
+#main_content {
+    background-color: ;
+}
+
+#post_heading {
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+}
+
+body {
+}
+
+#heading_parent {
+    display: flex;
+    justify-content: center;
+}
+
+#works{
+    display: flex;
+    justify-content: start;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 3px solid rgba(224, 224, 224, 1)
+}
+#Dashboard{
+    width: 246px;
+    height: 140px;
+    radius: 6px;
+    
+    
+}
+
+
+#bland{
+    border-radius: 16px;
+    background-color: midnightblue;
+}
+#st{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+#act{
+    display: flex;
+    justify-content: start;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 3px solid rgba(224, 224, 224, 1)
+}
+#Illustration{
+        width: 246px;
+        height: 140px;
+        radius: 6px;
+          
+}
+
+#ton{
+    border-radius: 16px;
+    background-color: midnightblue;
+}
+
+#you{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+#ion{
+    display: flex;
+    justify-content: start;
+    margin: 40px;
+    border-radius: 6px;
+    background-color: white;
+border: 3px solid rgba(224, 224, 224, 1);
+}
+#Typography{
+    width: 246px;
+     height: 140px;
+     radius: 6px;
+     
+}
+
+#tto{
+    border-radius: 16px;
+        background-color: midnightblue;
+}
+        
+    
+#em{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#Date {
+    display: flex;
+    margin: 10px;
+}
+
+#Date2 {
+    display: flex;
+    margin: 10px;
+}
+
+#Date3 {
+    display: flex;
+    margin: 10px;
+}
+
+#ton {
+    margin-right: 20px;
+}
+
+#bland {
+    margin-right: 20px; 
+}
+
+#tto {
+    margin-right: 20px;
+}
