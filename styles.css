@@ -15,7 +15,7 @@ nav {
 ul{
     display: flex;
     list-style: none;
-    justify-content: end;
+    justify-content: flex-end;
     margin: 20px;
 }
 
@@ -42,14 +42,16 @@ button {
     padding: 10px;
 }
 
-#second_div {
-   width: 418px;
+h1{
+    margin-bottom: 40px;
+}
+#first_div {
    padding: 25px;
    border-radius: 20px;
    background-color: darkcyan;
+   margin-right: 20px;
 }
-#third_div{
-    width: 418px;
+#second_div{
     padding: 25px;
     border-radius: 20px;
     background-color: darkcyan;
@@ -58,9 +60,10 @@ button {
 #Hero_container {
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    margin-bottom: 75px;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: center;
+    margin-right: 115px
     background-color: ;
 }
 
@@ -71,16 +74,14 @@ button {
 }
 
 #Description {
-    width: 497px;
+   
 }
 
 
-#first_div {
+#parent_div {
     display: flex;
-    flex-direction: row;
-    margin: 20px;
+    flex-direction: row; 
     padding: 20px;
-    justify-content: space-around;
     height: 350px;
 }
 
@@ -91,7 +92,7 @@ button {
 #post_heading {
     display: flex;
     justify-content: space-between;
-    width: 1060px;
+    align-items: center;
 }
 
 body {
@@ -112,8 +113,9 @@ body {
 }
 #Dashboard{
     width: 246px;
-    height: 140px;
-    radius: 6px;
+    height: 180px;
+    radius: 4px;
+    margin-right: 18px;
     
     
 }
@@ -142,8 +144,9 @@ body {
 }
 #Illustration{
         width: 246px;
-        height: 140px;
+        height: 180px;
         radius: 6px;
+        margin-right: 18px;
           
 }
 
@@ -170,8 +173,9 @@ border: 3px solid rgba(224, 224, 224, 1);
 }
 #Typography{
     width: 246px;
-     height: 140px;
+     height: 180px;
      radius: 6px;
+     margin-right: 18px;
      
 }
 
@@ -194,6 +198,7 @@ border: 3px solid rgba(224, 224, 224, 1);
 #Date2 {
     display: flex;
     margin: 10px;
+
 }
 
 #Date3 {
@@ -211,4 +216,30 @@ border: 3px solid rgba(224, 224, 224, 1);
 
 #tto {
     margin-right: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    gap: 35px ;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    padding: 0 146px 0 146px;
+}
+
+#Description{
+    margin-bottom: 40px;
+}
+
+#line{
+    background-color: gray;
+    border-bottom: 1px solid gray;
+    width: 804px;
+    margin: 15px 0 31px;
 }
